@@ -30,3 +30,7 @@ In .bash_profile
     . $script_directory"/soundbash/soundbash.sh"
 
 Now you can use the commands listed above.
+
+If you want to use the **random**sound command you will need to install gnu sort. You can do this easily using homebrew if you have it installed.
+
+    brew install coreutils

@@ -8,7 +8,7 @@ s() {
   afplay $firstsound
 }
 randomsound() {
-  # requires gnu sort (http://superuser.com/questions/334450/equivalent-of-gnu-sort-r-on-osx)
+  # requires gnu sort
   soundfile=$(find /Users/tom/system/sounds -type f -size -50k  \( ! -iname ".*" \) | gsort -R | head -n 1)
   echo $soundfile
   afplay $soundfile
